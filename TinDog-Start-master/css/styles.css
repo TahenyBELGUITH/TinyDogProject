@@ -1,0 +1,177 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 30% 15%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  padding: 80px;
+  padding-top: 120px;
+}
+
+h2 {
+  font-family: "montserrat";
+  font-size: 3rem;
+  line-height: 6;
+  padding: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat-bold";
+  text-align: center;
+  size:10px;
+  padding: 2%;
+}
+
+/* download button dark */
+.down-btn{
+  margin-left: 80px;
+}
+
+p {
+  color: grey;
+}
+
+/* navigation bar style */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* image  */
+.dog-pic {
+  padding-top: 130px;
+  width: 50%;
+  transform: rotate(10deg);
+  position: absolute;
+}
+
+/* class features style */
+#features {
+  padding: 6% 17%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials style */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2px;
+  height: auto;
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 30px;
+  text-align: center;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pricing-p {
+  text-align: center;
+  font-size: 18px;
+  color: grey;
+  padding: 2% 0% 8%;
+}
+
+
+@media (max-width: 1028px)
+{
+#Title
+{
+  text-align: center;
+}
+.dog-pic {
+  transform: rotate(0);
+  position: static;
+  margin: 2% 20%;
+}
+
+}
+
+
+
+#pricing{
+ padding: 7% 7%;
+}
+
+
+
+ .cta-class{
+   background-color: #ff4c68;
+   padding: 2% 5%;
+   color: white;
+   text-align: center;
+ }
+
+
+.btn-pos{
+  margin-left: 5px;;
+
+}
+
+#footer{
+  text-align: center;
+}
