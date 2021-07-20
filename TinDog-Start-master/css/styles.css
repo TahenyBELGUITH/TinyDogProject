@@ -168,10 +168,27 @@ p {
 
 
 .btn-pos{
-  margin-left: 5px;;
+  margin-left: 5px;
+
 
 }
 
+
+.cta-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
 #footer{
   text-align: center;
+  /* background-color: #ff4c68; */
+  font-family: "montserrat-black";
+  padding: 1%;
+}
+
+
+
+.social-media{
+  margin: 20px 10px;
 }
